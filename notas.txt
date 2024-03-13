@@ -1,3 +1,8 @@
+Passo a passo 
+Aula 3
+git configuraÃ§Ã£o
+- git config --global user.name "Lipestile"
+- git config --global user.email felipebalbino53gmail.com
 // instalar o express
 npm i express
 npm i -g nodemon
