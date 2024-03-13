@@ -16,4 +16,17 @@ npm i -g nodemon
 Ai vai ultilizar o comando  npm run dev para rodar a aplicação.
 Para criar um servidor!
 
+O comando deve ser ultilizado no powershell para funcionar
+
 !!! -------------------- !!! ----------------------!!!!!
+
+criando rota no express
+
+app.get('/', function(req, res){
+    res.send('Rota Principal')
+})
+
+Extenção importantes nos puglins do Vscode
+!!!!   Easy Snippet  !!!!!
+para essa extençao siga o passo a passo
+ctrl c no codigo que voce quer e usa o atalho crl + shift + p escrve na barra easy e clica na função add snippet from select....
