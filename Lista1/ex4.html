@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+        4. O custo de um carro novo ao consumidor é a soma do custo de fábrica com a 
+porcentagem do distribuidor e dos impostos (aplicados ao custo de fábrica). 
+Supondo que o percentual do distribuidor seja de 28% e os impostos de 45%, 
+escrever um script para ler o custo de fábrica de um carro, calcular e escrever o 
+custo final ao consumidor.
+                
+        */
+let valor = Number(prompt('Insira o valoe de custo da fabrica: '))
+let valortotal = valor + (valor * 0.28) + (valor * 0.45)
+document.write(`O valor de veiculo mais impostos e custos de destribuição: R$${valortotal}`)
+
+    </script>
+    
+</body>
+</html>

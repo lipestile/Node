@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+/*
+6. Uma revendedora de carros usados paga a seus funcionários vendedores um 
+salário fixo por mês, mais uma comissão também fixa para cada carro vendido e 
+mais 5% do valor das vendas por ele efetuadas. Escrever um script que leia o 
+número de carros por ele vendidos, o valor total de suas vendas, o salário fixo e 
+o valor que ele recebe por carro vendido. Calcule e escreva o salário final do 
+vendedor.
+*/
+const numerodecarrosporelevendido = Number(prompt(`Numero de carros vendidos pelo vendedor: `));
+const valortotaldasvendas = Number(prompt(`Valor total da vendas: `));
+const salariofixoporemes = Number(prompt("Salario Fixo por Mes:  "));
+const valorporcarrovendido = Number(prompt("Valor por Carro Vendido:   "));
+let somatotal = valorporcarrovendido + (valortotaldasvendas  * 0.05) + numerodecarrosporelevendido
+let mensagem =(`O salario total e ${somatotal}`)
+
+    </script>
+</body>
+</html>
